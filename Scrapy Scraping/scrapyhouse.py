@@ -1,4 +1,5 @@
 import scrapy
+import pandas as pd
 import time
 
 class ScrapyhouseSpider(scrapy.Spider):
@@ -12,6 +13,7 @@ class ScrapyhouseSpider(scrapy.Spider):
         
         time.sleep(2)
         
+        # goes to next page
         nextlink = response.css('.pager-next::attr(href)').get()
         if nextlink:
             next_link = response.urljoin(nextlink)

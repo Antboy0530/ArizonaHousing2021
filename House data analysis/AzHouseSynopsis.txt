@@ -1,0 +1,11 @@
+Arizona Houses Data Synopsis:
+
+- In my Dataset Phoenix contains the most houses in the Region, With it also being the most expensive Region(most likely due to the fact it has more houses).
+- Scottsdale has half the amount of houses Phoenix has, but its' total price is close to Phoenix
+- 3 rooms per house is most common in my dataset
+
+- There is a positive correlation between the increase of Sqft a house has and its' price.
+- While the # of beds and baths doesn't show as much correlation with Price.
+
+- I used two models in my code the RF Regressor and the RF Classifier. The Classifier had a higher confidence score.
+
